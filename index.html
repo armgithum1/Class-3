@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ViTEZ University Admission Form</title>
+    </head>
+    <table border="1" width="650" align="center">
+        <tr>
+            <td>
+                <form>
+                    <fieldset>
+                        <!-- Personal Information start -->
+                        <legend>Personal Information</legend>
+                        <textarea rows="8" cols="12" placeholder="Passport size picture"></textarea>
+                        <input type="file">                        
+
+                        <br><br>
+                        <label>Student Name</label>
+                        <input type="text" required placeholder="Student Name">
+                        <br><br>
+
+                        <label>Father's Name</label>
+                        <input type="text" required placeholder="Father's Name">
+                        <br><br>
+
+                        <label>Mother's Name</label>
+                        <input type="text" required placeholder="Mother's Name">
+                        <br><br>
+
+                        <label>Student Mobile Number</label>
+                        <input type="tel" required placeholder="Student Mobile Number">
+                        <br><br>
+
+                        <label>Father's Mobile Number</label>
+                        <input type="tel" required placeholder="Father's Mobile Number">
+                        <br><br>
+
+                        <label>Mother's Mobile Number</label>
+                        <input type="tel" required placeholder="Mother's Mobile Number">
+                        <br><br>
+
+                        <label>Email</label>
+                        <input type="email" placeholder="Your mail Address here">
+                        <br><br>
+
+                        <label>Date of Birth</label>
+                        <input type="date" placeholder="Select Your Birth Date" min="1995-01-01" max="2000-12-31">
+                        <br><br>
+
+                        <label>Blood Group:</label>                       
+                            <select>
+                                <option>Select Your Blood Group</option>
+                                <optgroup label="Positive">
+                                    <option value="A+">A+</option>
+                                    <option value="B+">B+</option>
+                                    <option value="AB+">AB+</option>
+                                    <option value="O+">O+</option>
+                                </optgroup>
+
+                                <optgroup label="Negative">
+                                    <option value="A-">A-</option>
+                                    <option value="B-">B-</option>
+                                    <option value="AB-">AB-</option>
+                                    <option value="O-">O-</option>
+                                </optgroup>
+                            </select>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label>Gender:</label>
+                            <label for="Male">Male</label>
+                            <input type="radio" name="Gender" id="Male">
+                            <label for="Female">Female</label>
+                            <input type="radio" name="Gender" id="Female">
+                            <label for="Other">Other</label>
+                            <input type="radio" name="Gender" id="Other"> 
+                            <br><br>
+
+                            <label>Hobby:</label>
+                            <label for="play">Playing</label>
+                            <input type="checkbox" name="Hobby" id="play">
+                            <label for="type">Typing</label>
+                            <input type="checkbox" name="Hobby" id="type">
+                            <label for="Write">Writting</label>
+                            <input type="checkbox" name="Hobby" id="Write">
+
+                    </fieldset>
+                    <!-- Personal Information End -->
+                    <br>
+
+                    <fieldset>
+                    <!-- stat Academic Information -->
+                        <legend>Academic Information</legend>
+                        
+                        <label>HSC Roll:</label>
+                        <input type="number" required>
+                        &nbsp;&nbsp;
+                        <label>HSC Grade Point:</label>
+                        <input type="number" required>
+                        <br><br>
+                        
+                        <label>SSC Roll:</label>
+                        <input type="number" required>
+                        &nbsp;&nbsp;
+                        <label>SSC Grade Point:</label>
+                        <input type="number" required>
+                        <br><br>
+
+                        <label>Registation Number</label>
+                        <input type="number" required>
+                        <br><br>
+
+                        <label>HSC College:</label>
+                        <input type="text">
+                        <br><br>
+
+                        <label>HSC Board</label>
+                        <input type="text" required placeholder="Write your board here">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <label>HSC Group:</label>
+                            <select required>
+                                <option>Select Your Group</option>
+                                <option>Business Studies</option>
+                                <option>Science</option>
+                                <option>Humanities</option>
+                            </select>
+
+                    <!-- End Academic Information -->
+                    </fieldset>
+
+                    <!-- Other information -->
+                    <br>
+                    <label>Password</label>
+                    <input type="password">
+                    <br><br>
+
+                    <input type="checkbox" required>
+                    <label>Is your information right?</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <button type="reset">Reset</button>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="submit">Register</button>
+
+
+                </form>
+            </td>
+        </tr>
+    </table>
+</html>
